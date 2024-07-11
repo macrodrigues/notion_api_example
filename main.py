@@ -3,4 +3,4 @@ from tools.utils import gen_bar_domains
 
 df = pd.read_csv('data/domains.csv')
 
-fig = gen_bar_domains(df)
+gen_bar_domains(df)
