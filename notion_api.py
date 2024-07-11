@@ -83,6 +83,19 @@ create_page_body = {
             "rich_text": [{
                 "text": {"content": ("1. What are the top domains people "
                                      "search on social networks?")}}]}
+        }, {
+        "object": "block",
+        "type": "paragraph",
+        "paragraph": {
+            "rich_text": [{
+                "text": {"content": "Look at this beautiful chart!"}}]}
+        }, {
+        "object": "block",
+        "type": "embed",
+        "embed": {
+            "url": (
+                "https://macrodrigues.github.io/notion_api_example/"
+                "bar_domains.html")}
         },]
     }
 

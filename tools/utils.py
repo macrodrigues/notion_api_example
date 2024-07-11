@@ -37,13 +37,13 @@ def gen_bar_domains(df_domains):
         font=dict(
             family="Arial, sans-serif",
             size=12,
-            color='black'  # General text color
+            color='white'  # General text color
         )
     )
 
     fig.update_traces(marker_color='#9CDBA6')
 
-    py.plot(fig, filename='notion-example', auto_open=True)
+    # py.plot(fig, filename='notion-example', auto_open=True)
 
     with open("bar_domains.html", 'w', encoding='utf-8') as f:
         f.write(fig.to_html(
